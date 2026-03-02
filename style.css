@@ -1,36 +1,89 @@
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Georgia", "Times New Roman", serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f6f9;
-    color: #333;
-    line-height: 1.6;
+    background-color: #f8f9fb;
+    color: #1a1a1a;
+    line-height: 1.8;
 }
 
+/* Header */
 header {
-    background: #1f2d3d;
-    color: white;
+    background: #0f172a;
+    color: #ffffff;
     text-align: center;
-    padding: 40px 20px;
+    padding: 60px 20px;
 }
 
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    margin: 8px 0;
+    font-size: 1rem;
+    opacity: 0.85;
+}
+
+/* Section Styling */
 section {
-    padding: 30px 10%;
-    margin-bottom: 20px;
+    padding: 60px 12%;
 }
 
 h2 {
-    border-bottom: 2px solid #1f2d3d;
-    padding-bottom: 5px;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #0f172a;
+    margin-top: 8px;
+}
+
+/* Internship Cards */
+.internship {
+    margin-bottom: 40px;
+    padding: 25px;
+    background: #ffffff;
+    border-left: 4px solid #0f172a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.internship h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #0f172a;
+}
+
+.internship p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 10px;
 }
 
 ul {
     padding-left: 20px;
 }
 
+ul li {
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    padding: 20px;
-    background: #1f2d3d;
-    color: white;
+    padding: 30px;
+    background: #0f172a;
+    color: #ffffff;
+    font-size: 0.9rem;
 }
